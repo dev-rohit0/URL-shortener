@@ -8,8 +8,8 @@ btn.addEventListener('click',function(){
   fetch(' https://api.shrtco.de/v2/shorten?url='+url)
   .then(response => response.json())
   .then(data =>{
-    console.log(data['result'])
-    
+   
+    output.style.display = 'flex'
     document.getElementById("shortLink").value = (data['result']['full_short_link']);
   })
 })
