@@ -9,7 +9,7 @@ btn.addEventListener('click',function(){
   .then(response => response.json())
   .then(data =>{
    
-    output.style.display = 'flex'
+    output.style.display = 'block'
     document.getElementById("shortLink").value = (data['result']['full_short_link']);
   })
 })
