@@ -107,7 +107,7 @@ body{
   }
 
   .output{
-    display: flex;
+    display: none;
     flex-direction: column;
     height: 15%;
     justify-content: space-evenly;
