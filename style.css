@@ -86,6 +86,7 @@ body{
   border: 0px;
   cursor: pointer;
 }
+@media only screen and (max-width: 480px) {
   body{
     margin-top: 0;
 }
@@ -107,7 +108,7 @@ body{
   }
 
   .output{
-    display: none;
+    display: flex;
     flex-direction: column;
     height: 15%;
     justify-content: space-evenly;
@@ -126,26 +127,3 @@ body{
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
